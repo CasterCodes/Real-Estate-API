@@ -1,8 +1,8 @@
 import { get } from "lodash";
 
-const accountSid = "AC3c83d7ca977b32d217e83d45ed9ce147";
-const authToken = "bcceb8abfa077b23bb506ba7f536a7a8";
-const serviceId = "VA712bc949e8f7cbc74e511d1cacbf8e95";
+const accountSid = "";
+const authToken = "";
+const serviceId = "";
 const client = require("twilio")(accountSid, authToken);
 
 export const sendConfirmPhoneNumber = async (to: string) => {
